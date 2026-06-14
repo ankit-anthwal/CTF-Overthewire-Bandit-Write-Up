@@ -1,0 +1,24 @@
+
+C:\home\kali> ssh bandit2@bandit.labs.overthewire.org -p 2220
+                         _                     _ _ _   
+                        | |__   __ _ _ __   __| (_) |_ 
+                        | '_ \ / _` | '_ \ / _` | | __|
+                        | |_) | (_| | | | | (_| | | |_ 
+                        |_.__/ \__,_|_| |_|\__,_|_|\__|
+                                                       
+
+                      This is an OverTheWire game server. 
+            More information on http://www.overthewire.org/wargames
+
+backend: gibson-0
+bandit2@bandit.labs.overthewire.org's password: 
+
+bandit2@bandit:~$ ls
+--spaces in this filename--
+
+# we use same as level 1
+# but in this use cat./- and press tab button 
+# they fill it automaticly
+
+bandit2@bandit:~$ cat ./--spaces\ in\ this\ filename-- 
+MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
