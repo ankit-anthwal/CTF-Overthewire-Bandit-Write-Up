@@ -1,4 +1,5 @@
 # CTF-Overthewire-Bandit-Write-Up
+# Bandit Level 0-9
 Level 0-1
 <img width="1920" height="1080" alt="Bandit Level 0-1" src="https://github.com/user-attachments/assets/eabdb3db-ad3b-4d09-af1a-f1a8027a6db2" />
 
