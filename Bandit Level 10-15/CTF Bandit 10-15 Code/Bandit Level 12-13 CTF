@@ -1,0 +1,63 @@
+bandit12@bandit:/tmp/directory$ ls
+data.txt
+bandit12@bandit:/tmp/directory$ xxd -r data.txt > file
+bandit12@bandit:/tmp/directory$ ls
+data.txt  file
+bandit12@bandit:/tmp/directory$ file file
+file: gzip compressed data, was "data2.bin", last modified: Sun Jun 14 17:54:04 2026, max compression, from Unix, original size modulo 2^32 575
+bandit12@bandit:/tmp/directory$ mv file file.gz
+bandit12@bandit:/tmp/directory$ gzip -d file.gz 
+bandit12@bandit:/tmp/directory$ ls
+data.txt  file
+bandit12@bandit:/tmp/directory$ file file
+file: bzip2 compressed data, block size = 900k
+bandit12@bandit:/tmp/directory$ mv file file.bz2
+bandit12@bandit:/tmp/directory$ bzip2 -d file.bz2 
+bandit12@bandit:/tmp/directory$ ls
+data.txt  file
+bandit12@bandit:/tmp/directory$ file file
+file: gzip compressed data, was "data4.bin", last modified: Sun Jun 14 17:54:04 2026, max compression, from Unix, original size modulo 2^32 20480
+bandit12@bandit:/tmp/directory$ mv file file.gz
+bandit12@bandit:/tmp/directory$ gzip -d file.gz 
+bandit12@bandit:/tmp/directory$ ls
+data.txt  file
+bandit12@bandit:/tmp/directory$ file file
+file: POSIX tar archive (GNU)
+bandit12@bandit:/tmp/directory$ mv file file.tar
+bandit12@bandit:/tmp/directory$ tar xf file.tar 
+bandit12@bandit:/tmp/directory$ ls
+data5.bin  data.txt  file.tar
+bandit12@bandit:/tmp/directory$ file data5.bin 
+data5.bin: POSIX tar archive (GNU)
+bandit12@bandit:/tmp/directory$ mv data5.bin data.tar
+bandit12@bandit:/tmp/directory$ tar xf data.tar 
+bandit12@bandit:/tmp/directory$ ls
+data6.bin  data.tar  data.txt  file.tar
+bandit12@bandit:/tmp/directory$ file data6.bin
+data6.bin: bzip2 compressed data, block size = 900k
+bandit12@bandit:/tmp/directory$ mv data6.bin data.bz2
+bandit12@bandit:/tmp/directory$ bzip2 -d data.bz2                                    
+bandit12@bandit:/tmp/directory$ ls                                                   
+data  data.tar  data.txt  file.tar                                                   
+bandit12@bandit:/tmp/directory$ file data                                            
+data: POSIX tar archive (GNU)                                                        
+bandit12@bandit:/tmp/directory$ mv data data.tar                                     
+bandit12@bandit:/tmp/directory$ tar xf data.tar 
+bandit12@bandit:/tmp/directory$ ls
+data8.bin  data.tar  data.txt  file.tar
+bandit12@bandit:/tmp/directory$ rm data.tar
+bandit12@bandit:/tmp/directory$ rm data.txt
+bandit12@bandit:/tmp/directory$ rm file.tar 
+bandit12@bandit:/tmp/directory$ ls
+data8.bin
+bandit12@bandit:/tmp/directory$ file data8.bin
+data8.bin: gzip compressed data, was "data9.bin", last modified: Sun Jun 14 17:54:04 2026, max compression, from Unix, original size modulo 2^32 49
+bandit12@bandit:/tmp/directory$ mv data8.bin data.gz
+bandit12@bandit:/tmp/directory$ gzip -d data.gz 
+bandit12@bandit:/tmp/directory$ ls
+data
+bandit12@bandit:/tmp/directory$ file data
+data: ASCII text
+bandit12@bandit:/tmp/directory$ strings data
+The password is FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+bandit12@bandit:/tmp/directory$ 
