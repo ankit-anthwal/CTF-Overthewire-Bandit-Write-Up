@@ -1,0 +1,8 @@
+
+  Enjoy your stay!
+
+bandit7@bandit:~$ ls
+data.txt
+bandit7@bandit:~$ strings data.txt | grep "millionth"
+millionth       dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+bandit7@bandit:~$ 

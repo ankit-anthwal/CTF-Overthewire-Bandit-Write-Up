@@ -1,0 +1,15 @@
+
+  Enjoy your stay!
+
+bandit9@bandit:~$ ls
+data.txt
+bandit9@bandit:~$ strings data.txt | grep "="
+========== the
+=WN(
+]========== password
+========== is
+=< u}
+=,p~<
+========== FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+[S=u
+bandit9@bandit:~$ 
