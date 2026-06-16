@@ -9,3 +9,9 @@
 
 # Level 12-13 P1
 <img width="1920" height="1080" alt="Bandit Level 12-13 P2" src="https://github.com/user-attachments/assets/25d59863-39b6-4d06-a65c-c999e4f2c027" />
+
+# Level 13-14 P1
+<img width="1920" height="1080" alt="Bandit Level 13-14 P1" src="https://github.com/user-attachments/assets/62b3174d-4829-47d8-87d4-32156be9ddd6" />
+
+# Level 13-14 P2
+<img width="1920" height="1080" alt="Bandit Level 13-14 P2" src="https://github.com/user-attachments/assets/860b8226-1509-4eec-ad1c-34a60fc94ab7" />
