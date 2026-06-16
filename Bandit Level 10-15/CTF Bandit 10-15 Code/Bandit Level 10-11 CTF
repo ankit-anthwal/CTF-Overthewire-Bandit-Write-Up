@@ -1,0 +1,8 @@
+
+  Enjoy your stay!
+
+bandit10@bandit:~$ ls
+data.txt
+bandit10@bandit:~$ strings data.txt | base64 -d
+The password is dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+bandit10@bandit:~$ 

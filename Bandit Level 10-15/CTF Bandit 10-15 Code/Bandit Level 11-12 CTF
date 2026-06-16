@@ -1,0 +1,18 @@
+
+  Enjoy your stay!
+
+bandit11@bandit:~$ ls
+data.txt
+bandit11@bandit:~$ strings data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+The password is 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+bandit11@bandit:~$ 
+
+Explain:-
+strings data.txt - Reads the contents of the file.
+| - The pipe operator takes the output of the first command and passes it as input 
+    to the next.
+tr 'A-Za-z' 'N-ZA-Mn-za-m' - This translates every character in the first set (A-Za-z') to its corresponding character in the second 
+                             set (N-ZA-Mn-za-m), effectively shifting them back by 13 positions.
+
+Alternative:-
+use cyberchef.com
