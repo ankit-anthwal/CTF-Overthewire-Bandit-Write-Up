@@ -17,3 +17,15 @@ Level 4-5
 
 Level 5-6
 <img width="1920" height="1080" alt="Bandit Level 5-6" src="https://github.com/user-attachments/assets/d10a8631-f668-47e0-9e8a-db23b6ee5e1a" />
+
+Level 6-7
+<img width="1920" height="1080" alt="Bandit Level 6-7" src="https://github.com/user-attachments/assets/b4dbfbb7-98b4-4f80-a645-086bb6406000" />
+
+Level 7-8
+<img width="1920" height="1080" alt="Bandit Level 7-8" src="https://github.com/user-attachments/assets/119fa417-ca84-46a6-a80a-33b8553c4edf" />
+
+Level 8-9
+<img width="1920" height="1080" alt="Bandit Level 8-9" src="https://github.com/user-attachments/assets/ad2fa4dd-b44d-4bbf-b5f1-97bc9ff35c6e" />
+
+Level 9-10
+<img width="1920" height="1080" alt="Bandit Level 9-10 " src="https://github.com/user-attachments/assets/36dd7a66-88e6-47e5-a2cc-7900da6c2c5c" />
